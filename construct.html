@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content>
+	<meta name="keywords" content>
+	<link href="./assets/img/favicon.ico" rel="apple-touch-icon">
+  <title>Конструктор Эконом</title>
+	<link type="text/css" href="./assets/css/bootstrap.css" rel="stylesheet">
+	<link type="text/css" href="./assets/css/style-construct.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<div class="row creator-book">
+			<div class="col-12">
+				<h2>Конструктор эконом</h2>
+				<div class="row construct__inner d-flex align-items-center">
+          <div class="col-6 creator-book-center">
+						<div class="current-book">
+							<div class="current-book-item book">
+                <div class="book__insert--img">
+
+                </div>
+                <div class="current-book-item"></div>
+                <div class="current-book-item"></div>
+                <div class="current-book-item"></div>
+                <div class="current-book-item"></div>
+                <div class="current-book-item"></div>
+                <div class="current-book-item"></div>
+                <div class="current-book-item radius"></div>
+                <div class="current-book-item"></div>
+                <div class="current-book-item"></div>
+                <div class="current-book-item"></div>
+                <div class="current-book-item cover"></div>
+                <div class="current-book-item cover__koj"></div>
+                <div class="current-book-item "></div>
+                <div class="current-book-item decor"></div>
+                <div class="current-book-item"></div>
+              </div>
+						</div>
+					</div>
+					<div class="col-6 creator-book-left">
+            <div class="block__inner">
+              <h3>Формат</h3>
+              <div class="topping-item columns">
+                <label class="container-custom-checkbox">A3
+                  <input type="checkbox"><span class="checkmark"></span>
+                </label>
+                 <label class="container-custom-checkbox">A4
+                  <input type="checkbox"><span class="checkmark"></span>
+                </label>
+                 <label class="container-custom-checkbox">A5
+                  <input type="checkbox"><span class="checkmark"></span>
+                </label>
+              </div>
+            </div>
+            <div class="block__inner">
+              <h3>Кол-во разворотов</h3>
+              <div class="topping-item">
+                <input class="count__u-turns" id="count__u-turns" name="count__u-turns" type="number" placeholder="1" value="1" min="1">
+              </div>
+            </div>
+            <div class="block__inner">
+              <h3>Фотобумага</h3>
+              <div class="topping-item">
+                <label class="container-custom-checkbox">Матовая
+                  <input type="checkbox"><span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="topping-item">
+                <label class="container-custom-checkbox">Глянец
+                  <input type="checkbox"><span class="checkmark"></span>
+                </label>
+              </div>
+            </div>
+            <div class="block__inner">
+              <h3>Корешок</h3>
+              <div class="topping-item">
+                <label class="container-custom-checkbox">Круглый мягкий
+                  <input type="checkbox"><span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="topping-item">
+                <label class="container-custom-checkbox">Квадратный
+                  <input type="checkbox"><span class="checkmark"></span>
+                </label>
+              </div>
+            </div>
+            <div class="block__inner">
+              <h3>Обложка</h3>
+              <div class="topping-item">
+                <label class="container-custom-checkbox">В обрез
+                  <input type="checkbox"><span class="checkmark"></span>
+                </label>
+						  </div>
+              <div class="topping-item">
+                <label class="container-custom-checkbox">С подгибом
+                  <input type="checkbox"><span class="checkmark"></span>
+                </label>
+						  </div>
+            </div>
+						<div class="block__inner">
+              <h3>Материал обложки</h3>
+              <div class="topping-item">
+                <label class="container-custom-checkbox">Переплетный
+                  <input type="checkbox"><span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="topping-item">
+                <label class="container-custom-checkbox">Кожзам
+                  <input type="checkbox"><span class="checkmark"></span>
+                </label>
+              </div>
+            </div>
+            <div class="block__inner">
+              <h3>Тиснение</h3>
+              <div class="topping-item">
+                <label class="container-custom-checkbox">Не требуется
+                  <input type="checkbox"><span class="checkmark"></span>
+                </label>
+						  </div>
+              <div class="topping-item">
+                <label class="container-custom-checkbox">Выбор из галереи
+                  <input type="checkbox"><span class="checkmark"></span>
+                </label>
+						  </div>
+            </div>
+            <div class="block__inner">
+              <h3>Количество экземпляров фотокниги</h3>
+              <input class="count__copy" id="count__copy" name="count__copy" type="number" placeholder="1" value="1" min="1">
+            </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row option-delivery">
+			<div class="col-4"></div>
+			<div class="col-4"></div>
+			<div class="col-4 total-summary">
+				<div class="option-delivery-right">
+					<div class="total-amount"><span class="text">К оплате:</span><span class="summa">0₽</span>
+					</div>
+          <div class="total-reg">
+            <span class="text">Стоимость рассчитана с учетом скидки 20% 
+              <a href="">Зарегистрировануму пользователю</a></span>
+            <span class="summa">0₽</span>
+          </div>
+				</div>
+        <button class="typical-btn make-an-order">Сделать заказ</button>
+			</div>
+		</div>
+	</div>
+	<div class="modal-window none">
+		<div class="modal-window__content">
+			<p class="modal-window__subject">
+				<span class="modal-window__ingredients"></span>
+				<span class="modal-window__drinks"></span>
+			</p>
+			<button class="modal-window__submit-btn">
+				Заказать
+			</button>
+		</div>
+	</div>
+	<script src="./assets/js/jquery.min.js" type="text/javascript"></script>
+	<script src="./assets/js/bootstrap.js" type="text/javascript"></script>
+	<script src="./assets/js/main.js" type="text/javascript"></script>
+</body>
+
+</html>
